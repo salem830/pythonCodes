@@ -20,3 +20,16 @@ print(str2)
 #added by @remon
 str3 ="2018"
 print(str3)
+
+#example 4
+#added by Salem Benlechheb
+#added by @elmakikadir1983nwsn
+#Now with Python you can view the number of leap
+#years between two specific years. This is an example of the code you can use.
+import calendar 
+print(">>>>>>>>>>Leap Year Calculator<<<<<<<<<<\n")
+y1=int(input("Enter the first year: ")) 
+y2=int(input("Enter the second year: ")) 
+leaps=calendar.leapdays(y1, y2) 
+print("Number of leap years between", y1, "and", 
+y2, "is:", leaps)
